@@ -64,7 +64,7 @@ function selectStudents(base,alreadyChoosen){
 
 function displayResult(targetEl,data){
     targetEl.classList.remove("d-none")
-    targetEl.querySelector('.card-header').textContent = `Randomizer result for ${data.label}`
+    targetEl.querySelector('.card-header').textContent = `Attribution des questions pour le sujet ${data.label}`
     const cardBodyEl = targetEl.querySelector('.card-body')
     const tableTemplate = document.querySelector('#resultTable')
     const lineTemplate = document.querySelector('#resultLine')
