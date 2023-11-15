@@ -1,0 +1,11 @@
+{
+  "name": "studentrandomizer",
+  "version": "1.0.0",
+  "description": "Student random selector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no data specified\\\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
