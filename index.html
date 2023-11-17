@@ -46,9 +46,12 @@
     <div class="row">
         <div class="col-8 offset-2">
             <hr>
+            <div class="d-none" data-choosen="" id="dataChoosenStorage"></div>
             <div class="card d-none" id="resultCard">
                 <div class="card-header h5">Random selection result</div>
-                <div class="card-body"></div>
+                <div class="card-body">
+
+                </div>
             </div>
         </div>
     </div>
@@ -61,6 +64,7 @@
             <tr>
                 <th class="text-center" scope="col">Question</th>
                 <th class="text-center" scope="col">Etudiant</th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
@@ -74,6 +78,9 @@
         <tr>
             <th class="text-center"></th>
             <td class="text-center"></td>
+            <td class="text-center">
+                <button class="btn btn-warning" data-student="" id="regenOneBtn">Générer</button>
+            </td>
         </tr>
     </template>
 
